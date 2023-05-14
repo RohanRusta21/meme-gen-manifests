@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: meme-app
-          image: wededo4644/meme-gen:latest
+          image: wededo4644/meme-gen:32c5f134cd95d27921a6543ff80357470a0f2be7
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
