@@ -4,7 +4,7 @@ metadata:
   name: meme-app
   namespace: argocd
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: meme-app
   ports:
